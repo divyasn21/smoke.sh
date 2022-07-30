@@ -1,11 +1,7 @@
 pipeline {
     agent any
   stages {
-    stage (test) {
-        script {
-            #!/bin/bash
-            . smoke-google
-        }
+      stage ('test') {
          steps {
             sh "bash ./smoke-google"
       }
