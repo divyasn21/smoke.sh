@@ -4,8 +4,6 @@ pipeline {
     stage (smoke-google) {
       steps {
         script {
-          #!/bin/bash
-
           . smoke.sh
 
           smoke_url_ok "http://google.com/"
