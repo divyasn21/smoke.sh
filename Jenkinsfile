@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage (test) {
         script {
+            #!/bin/bash
             . smoke-google
         }
          steps {
