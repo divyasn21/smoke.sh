@@ -2,6 +2,6 @@
 
 . smoke.sh
 
-smoke_url_ok "http://google.com/"
-    smoke_assert_body "search"
+smoke_url_ok "http://ec2co-ecsel-hnncqa1diiv6-1915765252.us-east-1.elb.amazonaws.com/"
+    smoke_assert_body "Version"
 smoke_report
